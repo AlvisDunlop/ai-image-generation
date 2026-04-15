@@ -6,7 +6,7 @@ requires.env: [SKILLBOSS_API_KEY]
 
 # AI Image Generation
 
-Generate images with 50+ AI models via [SkillBoss API Hub](https://api.skillbossai.com).
+Generate images with 50+ AI models via [SkillBoss API Hub](https://api.skillboss.co).
 
 ## Quick Start
 
@@ -14,7 +14,7 @@ Generate images with 50+ AI models via [SkillBoss API Hub](https://api.skillboss
 import requests, os
 
 SKILLBOSS_API_KEY = os.environ["SKILLBOSS_API_KEY"]
-API_BASE = "https://api.skillbossai.com/v1"
+API_BASE = "https://api.skillboss.co/v1"
 
 def pilot(body: dict) -> dict:
     r = requests.post(
